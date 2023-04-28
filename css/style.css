@@ -1,0 +1,162 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* font-family: 'Revalia', cursive;
+font-family: 'Roboto', sans-serif; */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+/* цвета оформления */
+:root {
+  --accent-color: #34547a;
+  --gray-color: #727272;
+  --form-color: #5f5d5d;
+  --white-color: #fff;
+  --background-color: #eeeff1;
+}
+
+/* Стили для текста */
+.text-p {
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--gray-color);
+}
+
+.text-h2 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000;
+}
+
+.text-h3 {
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--white-color);
+}
+
+.text-inputs {
+  font-size: 14px;
+  line-height: 23px;
+  color: var(--form-color);
+}
+
+.header {
+  background-color: var(--background-color);
+  min-height: 700px;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 127px;
+  padding-top: 50px;
+}
+
+.header__menu-logo {
+  font-family: 'Revalia', cursive;
+  font-size: 48px;
+  line-height: 60px;
+  color: var(--accent-color);
+}
+
+.nav {
+  display: flex;
+ align-items: center;
+  justify-content: space-between;
+  width: 611px;
+}
+li {
+  list-style-type: none;
+}
+.nav_link {
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.active_menu {
+  color: var(--accent-color);
+}
+.nav_link:hover {
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: teal;
+  color: var(--white-color);
+}
+
+.header__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 950px;
+ margin: 0 auto;
+}
+.header__img_1 {
+  margin-right: 130px; 
+  padding-bottom: 147px;
+}
+.header__img { 
+  width: 357px;
+  height: 234px; 
+}
+.header__info-text {
+ 
+  padding-bottom: 140px;
+}
+.header__h1 {
+  font-weight: 500;
+font-size: 48px;
+line-height: 79px;
+margin-bottom: 37px;
+}
+
+.header__info-text-p {
+  margin-bottom: 53px;
+}
+
+.header__info-btn {
+  width: 225px;
+  height: 65px;
+  background-color: var(--accent-color);
+  color: white;
+  font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.1em;text-transform: uppercase;
+}
+.header__info-btn:hover{
+  cursor: pointer; 
+}
